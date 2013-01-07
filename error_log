@@ -1,0 +1,2 @@
+[06-Aug-2012 10:31:18] PHP Fatal error:  Call to undefined function  bloginfo() in /home/oscarlz/public_html/wp-content/themes/LightenMag/footer.php on line 2
+[16-Aug-2012 17:44:10] PHP Fatal error:  Call to undefined function  get_header() in /home/oscarlz/public_html/wp-content/themes/LightenMag/index.php on line 1

@@ -1,0 +1,671 @@
+/*
+	Theme Name: LightenMag
+	Theme URL: http://themepix.com/wordpress-themes/lightenmag/
+	Description: LightenMag is a free WordPress theme with featured posts option, post thumbnails and theme admin/options page. Suitable for any niche, especially for business blogs. <strong>TIP: When you do new posts, dont forget to set Featured Image, this will help to show thumbnail image on posts and featured slider posts.</strong>
+	Author: ThemePix.com
+	Author URI: http://themepix.com/
+	Version: 2.0
+*/
+
+/* LAYOUT */
+body {
+    background: url("images/background_mundoconsejos.jpg") no-repeat;
+    background-color: #ebfbfb;
+    background-position: 0px 80px;
+    background-attachment:fixed;
+}
+#wrapper {
+    background: url("images/wrapper.png") repeat-x scroll 0 0 transparent;
+}
+#outer-wrapper {
+    margin-top: 0;
+}
+#contentwrap {
+    border-bottom: 1px solid #B2DEE5;
+    padding: 10px 6px 10px 10px;
+    width: 1020px;
+}
+a {
+    color: #066f8a;
+    text-decoration: none;
+}
+a:hover {
+    color: #5588AA;
+    text-decoration: underline;
+}
+#header {
+    height: 30px;
+}
+#header h1 {
+    font-family: Verdana,Arial,Helvetica,Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 0 !important;
+    padding: 0 25px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#header h1 a, #header h1 a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+#header h2 {
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,Sans-serif;
+    font-size: 12px;
+    padding-left: 25px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.logoimg {
+    margin: 0px 0 0 19px;
+}
+.feedtwitter {
+    margin-top: 8px;
+    text-align: left;
+}
+#pagemenucontainer {
+    background: url("images/top-menu.png") repeat-x scroll 0 0 transparent;
+    border-radius: 0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+    float: left;
+    height: 36px;
+    margin-top: 0;
+}
+#pagemenu {
+    float: left;
+    height: 36px;
+}
+#pagemenu, #pagemenu ul {
+    line-height: 1;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#pagemenu {
+}
+#pagemenu ul {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#pagemenu li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#pagemenu ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#pagemenu li a, #pagemenu li a:link {
+    color: #333333;
+    display: block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: none;
+}
+#pagemenu li a:hover, #pagemenu li a:active {
+    background: none repeat scroll 0 0 #CCD5DB;
+    border-radius: 0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+#pagemenu li.current_page_item a {
+    background: none repeat scroll 0 0 #CCD5DB;
+    border-radius: 0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+    color: #000000;
+}
+#pagemenu li:hover, #pagemenu li.sfhover {
+    position: static;
+}
+#navcontainer {
+    display: block;
+    height: 40px;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 995px;
+    border-top: 1px dotted #a3cbd6;
+}
+#navcontainer .current-cat a {
+    background: url("images/tab.png") no-repeat scroll center top transparent;
+    color: #000000;
+}
+#content {
+    padding: 0;
+}
+pre {
+    overflow: auto;
+    width: 460px;
+}
+.post {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 15px;
+}
+.post p {
+    margin-bottom: 10px;
+}
+.title {
+    color: #333333;
+    font: bold 25px Verdana;
+	line-height: 120%;
+	margin: .2em 0 .4em 0;
+	letter-spacing: -1px;
+}
+.title a {
+    color: #333333;
+    text-decoration:none;
+}
+.title a:hover {
+    color: #5588AA;
+    border-bottom:1px dotted;
+}
+.pagetitle {
+    font-family: Verdana,Arial,Helvetica,Sans-serif;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.readmorecontent {
+    text-align: right;
+}
+a.readmore {
+    background: url("images/h2bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    color: #076D9D;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+a.readmore:hover {
+    color: #5588AA;
+}
+.postdate {
+    color: #626D70;
+    font-family: Verdana,Arial;
+    font-size: 11px;
+    padding: 2px 0;
+}
+.postmeta {
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    padding: 2px 4px;
+}
+.postdate img, .postmeta img {
+    border: medium none;
+    margin: 2px;
+    vertical-align: middle;
+}
+.entry {
+    font-family: Verdana, Arial;
+    font-size: 13px;
+    line-height: 160%;
+    padding-top: 8px;
+}
+.navigation {
+    padding: 25px 0;
+}
+blockquote {
+    border-left: 3px solid #BCBBBB;
+    color: #666666;
+    font-style: italic;
+    overflow: hidden;
+    padding-left: 9px;
+}
+.post img {
+    max-width: 680px;
+}
+img.wp-smiley {
+    border: medium none;
+    margin: 0;
+    max-height: 12px;
+    padding: 0;
+}
+.aligncenter, div.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.wp-caption {
+    background-color: #F3F3F3;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    margin: 10px;
+    padding-top: 4px;
+    text-align: center;
+}
+.wp-caption img {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    color: #232323 !important;
+    font-size: 15px !important;
+    padding: 4px 8px !important;
+}
+.wp-pagenavi a:hover {
+    background: none repeat scroll 0 0 #168FB8 !important;
+    border: 0 none !important;
+    color: #FFFFFF !important;
+}
+.wp-pagenavi span.pages {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    color: #232323 !important;
+    font-size: 15px !important;
+    padding: 4px 8px !important;
+}
+.wp-pagenavi span.current {
+    background: none repeat scroll 0 0 #B2DEE5 !important;
+    border: 0 none !important;
+    color: #000000 !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    padding: 4px 8px !important;
+}
+.wp-pagenavi span.extend {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    color: #232323 !important;
+    font-size: 15px !important;
+    padding: 4px 8px !important;
+}
+.sidebaradbox {
+    background: url("images/widget-bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #B2DEE5;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.ad125 {
+    margin: 10px;
+}
+.sidebar {
+    color: #333333;
+    margin: 0 0 10px;
+}
+.sidebar-right {
+    margin: 0 6px 0 0;
+}
+.sidebar-left {
+    margin: 0;
+}
+.sidebar-left h2 {
+}
+.sidebar-right h2 {
+}
+.sidebar a {
+    color: #076D9D;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: #5588AA;
+    text-decoration: underline;
+}
+#search {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #0DA3BF;
+    height: 23px;
+    padding-right: 3px;
+    text-align: right;
+}
+#search input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #444444;
+}
+#s {
+    background: none repeat scroll 0 0 transparent;
+    margin: 2px 0 0;
+    padding: 2px 4px 4px;
+    width: 140px;
+}
+#topsearch #s {
+    width: 310px;
+}
+#topsearch #search {
+    float: right;
+    margin: -30px 0 0;
+}
+.sidebar h2 {
+    background: url("images/h2bg.png") repeat-x scroll 0 0 transparent;
+    border-radius: 10px 10px 0 0;
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin: -8px -8px 0;
+    padding: 8px 8px 6px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: none;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.sidebar ul li {
+    background: url("images/widget-bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #B2DEE5;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding: 8px;
+}
+.sidebar ul ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li ul li, .sidebar ul li li {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px dotted #CCCCCC;
+border-top: none;
+border-left: none;
+border-right:none; 
+    border-radius: 0 0 0 0;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-bottom-left-radius:0px;
+-webkit-border-bottom-right-radius:0px;
+-webkit-border-top-left-radius:0px;
+-webkit-border-top-right-radius:0;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    margin: 0;
+    padding: 3px 0;
+}
+#wp-calendar th {
+    background: none repeat scroll 0 0 transparent;
+    color: #666666;
+    font-style: normal;
+    text-transform: capitalize;
+}
+#wp-calendar caption {
+    background: none repeat scroll 0 0 transparent;
+    color: #333333;
+    margin: 2px 0;
+    padding: 2px 4px;
+    text-transform: uppercase;
+}
+#wp-calendar td {
+    color: #777777;
+    font: 12px 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+    letter-spacing: normal;
+    padding: 2px 0;
+    text-align: center;
+}
+#wp-calendar td:hover, #wp-calendar #today {
+    background: none repeat scroll 0 0 #B2DEE5;
+    color: #000000;
+}
+#wp-calendar td:hover a, #wp-calendar #today a {
+    color: #FFFFFF;
+}
+#wp-calendar {
+    empty-cells: show;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    width: 95%;
+}
+#footer {
+    color: #333333;
+    font-size: 13px;
+    margin-top: 0;
+    padding: 12px 19px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#footer a {
+    color: #333333;
+}
+#footer a:hover {
+    color: #E8EFF1;
+    text-decoration: none;
+}
+#credits {
+    color: #555555;
+    font-size: 11px;
+    padding: 4px 4px 14px;
+    text-align: center;
+}
+#credits a {
+    color: #555555;
+    text-decoration: none;
+}
+#comments h3 {
+    margin-bottom: 10px;
+}
+#commentform input {
+    margin: 5px 5px 1px 0;
+    padding: 2px;
+    width: 170px;
+}
+#commentform {
+    margin: 5px 10px 0 0;
+}
+#commentform textarea {
+    padding: 2px;
+    width: 100%;
+}
+#respond:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#commentform #submit {
+    float: right;
+    margin: 0 0 5px auto;
+}
+.alt {
+    margin: 0;
+    padding: 10px;
+}
+.commentlist {
+    padding: 0;
+    text-align: justify;
+}
+.commentlist li {
+    list-style: none outside none;
+    margin: 15px 0 10px;
+    padding: 5px 5px 10px 10px;
+}
+.commentlist li ul li {
+    margin-left: 10px;
+    margin-right: -5px;
+}
+.commentlist p {
+    margin: 10px 5px 10px 0;
+}
+.children {
+    padding: 0;
+}
+#commentform p {
+    margin: 5px 0;
+}
+.nocomments {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.commentmetadata {
+    display: block;
+    margin: 0;
+}
+.post_thumbnail {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 3px #CCCCCC;
+-webkit-box-shadow: 0 0 3px #CCCCCC;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+}
+
+.post_thumbnail_insidepost {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 2px #CCCCCC;
+-webkit-box-shadow: 0 0 2px #CCCCCC;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.menu-header {
+	width:100%;
+	height:35px;
+	background: url("images/menu/background.png") repeat-x;
+	background-position:50% 0;
+	margin:0;
+    margin-left:10px;
+}
+
+.menu-header ul{
+	width:100%;
+	border:none;
+	background:none;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.menu-header li{
+	border:none;
+	background:none;
+	background: url("images/menu/background.png");
+	color:#000;
+	line-height:35px;
+	z-index:9999;
+	letter-spacing:0px;
+	font-size:12px;
+	padding:0;
+	margin:0 0px;
+	float:left;
+	position:relative;
+}
+
+.menu-header li:hover {
+    background: url("images/menu/background.png");
+    background-position: 0 60px;
+}
+
+.menu-header li a {
+	border:none;
+	background:none;
+	text-decoration:none;
+	display:block;
+	padding:0 12px;
+	color:#066f8a;
+    background: url(images/menu/corazon_off.png) no-repeat 13px 15px;
+    padding-left: 27px;
+    font-weight:bold;
+    font-family:Verdana;
+    text-transform: uppercase;
+}
+
+.menu-header li a:hover {
+	border:none;
+	background:none;
+	text-decoration:none;
+	color:#066f8a;
+    background: url(images/menu/corazon_on.png) no-repeat 13px 15px;
+}
+
+.menu-header ul ul {
+	position:absolute;
+	left:-999em;
+	top:35px;
+	width:160px;
+}
+
+.menu-header li:hover ul,.menu-header li.sfhover ul {
+	left:auto;
+}
+
+.menu-header ul ul li a {
+	padding:4px 10px;
+	font-variant:normal;
+    padding-left: 15px;
+    background: url(images/menu/corazon_off.png) no-repeat 1px 13px;
+}
+
+.menu-header ul ul li {
+	letter-spacing:0px;
+	color:#444444;
+	z-index:20;
+	width:280px;
+	font-family:helvetica,arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+	background:#FFFFFF;
+	border-bottom:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	padding-left: 12px;
+}
+
+.menu-header ul ul li a {
+	line-height:22px;
+	text-decoration:none;
+}
+
+.menu-header ul ul li:hover a,.menu-header ul ul li.sfhover a {
+	color:#066f8a;
+	text-decoration:none;
+    background: #efefef url(images/menu/corazon_on.png) no-repeat 1px 13px;
+}
+
+.menu-header ul ul li:hover{
+    background: #efefef;
+}
