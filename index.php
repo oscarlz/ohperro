@@ -28,12 +28,12 @@
                                 <?php
                             }
                                 $hTag = 'h2';
-                                if( stristr(the_title(' ', ' ', false), 'Consejos de amor, vida, i') == true ) { $hTag = 'h1'; } ?>
+                                if( stristr(the_title(' ', ' ', false), 'Ohperro: razas de perros, fotos de perros') == true ) { $hTag = 'h1'; } ?>
                             <?php echo "<$hTag class=\"title\">"; ?><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a><?php echo "</$hTag>"; ?>
 							<div class="postdate"><img src="<?php bloginfo('template_url'); ?>/images/date.png" width="16" height="16"/> <?php the_time('j F, Y') ?> | Por <?php c2c_the_author_image(); ?><?php if (current_user_can('edit_post', $post->ID)) { ?> <img src="<?php bloginfo('template_url'); ?>/images/edit.png" /> <?php edit_post_link('Edit', '', ''); } ?></div>
 			
 							<div class="entry">
-                                <?php if(!is_category('Imagenes de amor con frases')){ if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } } ?>
+                                <?php if(!in_category('Fotos de perros') && !in_category('Fotos de perros cachorros')){ if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } } ?>
 								<?php the_excerpt(); ?>
                                 <br>
                                 <div class="readmorecontent">

@@ -9,10 +9,13 @@
 
 /* LAYOUT */
 body {
-    background-color: #ebfbfb;
+    background-image:url('ohperro-wallpaper.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position: 0px 190px;	
 }
 #wrapper {
-    background: url("images/wrapper.png") repeat-x scroll 0 0 transparent;
+    
 }
 #outer-wrapper {
     margin-top: 0;
@@ -359,7 +362,7 @@ img.wp-smiley {
     width: 140px;
 }
 #topsearch #s {
-    width: 310px;
+    width: 240px;
 }
 #topsearch #search {
     float: right;
@@ -603,8 +606,8 @@ border-right:none;
 	display:block;
 	padding:0 12px;
 	color:#066f8a;
-    background: url(images/menu/corazon_off.png) no-repeat 13px 15px;
-    padding-left: 27px;
+    background: url(images/menu/pata-de-perro-off.png) no-repeat 13px 11px;
+    padding-left: 29px;
     font-weight:bold;
     font-family:Verdana;
     text-transform: uppercase;
@@ -615,7 +618,7 @@ border-right:none;
 	background:none;
 	text-decoration:none;
 	color:#066f8a;
-    background: url(images/menu/corazon_on.png) no-repeat 13px 15px;
+    background: url(images/menu/pata-de-perro-on.png) no-repeat 13px 11px;
 }
 
 .menu-header ul ul {
@@ -630,10 +633,10 @@ border-right:none;
 }
 
 .menu-header ul ul li a {
-	padding:4px 10px;
+	padding:4px 8px;
 	font-variant:normal;
-    padding-left: 15px;
-    background: url(images/menu/corazon_off.png) no-repeat 1px 13px;
+    padding-left: 17px;
+    background: url(images/menu/pata-de-perro-off.png) no-repeat 0px 8px;
 }
 
 .menu-header ul ul li {
@@ -660,7 +663,7 @@ border-right:none;
 .menu-header ul ul li:hover a,.menu-header ul ul li.sfhover a {
 	color:#066f8a;
 	text-decoration:none;
-    background: #efefef url(images/menu/corazon_on.png) no-repeat 1px 13px;
+    background: #efefef url(images/menu/pata-de-perro-on.png) no-repeat 0px 8px;
 }
 
 .menu-header ul ul li:hover{

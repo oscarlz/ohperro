@@ -10,7 +10,7 @@
 							<div class="postdate"><img src="<?php bloginfo('template_url'); ?>/images/date.png" /> <?php the_time('j F, Y') ?>  | Por <?php c2c_the_author_image(); ?> <?php if (current_user_can('edit_post', $post->ID)) { ?> <img src="<?php bloginfo('template_url'); ?>/images/edit.png" /> <?php edit_post_link('Edit', '', ''); } ?></div>
 			
 							<div class="entry">
-                            <?php if(!has_post_thumbnail() || in_category('Imagenes de amor con frases')) {?> <div align="center" style="margin-bottom: 5px;"><?php } ?>
+                            <?php if(!has_post_thumbnail() || in_category('Fotos de perros') || in_category('Fotos de perros cachorros')) {?> <div align="center" style="margin-bottom: 5px;"><?php } ?>
                             <script type="text/javascript"><!--
                             google_ad_client = "ca-pub-4342568147424167";
                             /* MC - Cuadro medio */
@@ -22,8 +22,8 @@
                             <script type="text/javascript"
                             src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                             </script>
-                            <?php if(!has_post_thumbnail() || in_category('Imagenes de amor con frases')) { ?> </div> <?php } ?>
-                                <?php if(!in_category('Imagenes de amor con frases')){ if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) {
+                            <?php if(!has_post_thumbnail() || in_category('Fotos de perros') || in_category('Fotos de perros cachorros')) { ?> </div> <?php } ?>
+                                <?php if(!in_category('Fotos de perros') && !in_category('Fotos de perros cachorros')){ if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) {
                                     the_post_thumbnail('alignleft post_thumbnail_insidepost'); } } ?>
 
                                 <?php the_content('Read the rest of this entry &raquo;'); ?>

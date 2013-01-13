@@ -362,5 +362,5 @@ function sidebar_ads_125()
         return $divSTYLE;
     }
 
-    add_image_size( 'alignleft post_thumbnail_insidepost', 240, 9999, soft );
+    add_image_size( 'alignleft post_thumbnail_insidepost', 300, 248, soft );
 ?>

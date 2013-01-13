@@ -50,8 +50,8 @@
                 
                 <div class="twit-rss rightsectorsearch">
                     <div class="feedtwitter">
-                        <a href="https://plus.google.com/116451927729708782529/posts" target="_blank"><img width="24" height="24" src="<?php bloginfo('template_url'); ?>/images/googleplus.png"  style="margin:0 4px 0 0;" alt="¡Síguens en Google+!" title="¡Síguens en Google+!" /></a>
-    					<a href="http://feeds.feedburner.com/Mundoconsejoscom" rel="nofollow" target="_blank"><img width="24" height="24" src="<?php bloginfo('template_url'); ?>/images/rss.png"  style="margin:0 4px 0 0;" alt="¡Únete a nuestros lectores!" title="¡Únete a nuestros lectores!" /></a>		<?php if(get_theme_option('facebook') != '') { ?><a href="<?php echo get_theme_option('facebook'); ?>" title="<?php echo get_theme_option('facebooktext'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" width="24" height="24"  style="margin:0 4px 0 0; " title="<?php echo get_theme_option('facebooktext'); ?>" alt="<?php echo get_theme_option('facebooktext'); ?>" /></a><?php } ?>
+                        <a href="#" target="_blank"><img width="24" height="24" src="<?php bloginfo('template_url'); ?>/images/googleplus.png"  style="margin:0 4px 0 0;" alt="¡Síguens en Google+!" title="¡Síguenos en Google+!" /></a>
+    					<a href="#" rel="nofollow" target="_blank"><img width="24" height="24" src="<?php bloginfo('template_url'); ?>/images/rss.png"  style="margin:0 4px 0 0;" alt="¡Únete a nuestros lectores!" title="¡Únete a nuestros lectores!" /></a>		<?php if(get_theme_option('facebook') != '') { ?><a href="<?php echo get_theme_option('facebook'); ?>" title="<?php echo get_theme_option('facebooktext'); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" width="24" height="24"  style="margin:0 4px 0 0; " title="<?php echo get_theme_option('facebooktext'); ?>" alt="<?php echo get_theme_option('facebooktext'); ?>" /></a><?php } ?>
     					<?php if(get_theme_option('twitter') != '') { ?><a href="<?php echo get_theme_option('twitter'); ?>" title="<?php echo get_theme_option('twittertext'); ?>" target="_blank"><img width="24" height="24" src="<?php bloginfo('template_url'); ?>/images/twitter.png"  style="margin:0 4px 0 0; "  title="<?php echo get_theme_option('twittertext'); ?>" alt="<?php echo get_theme_option('twittertext'); ?>" /></a><?php } ?>
 
 				    </div>
@@ -67,7 +67,7 @@
 						$get_logo_image = get_theme_option('logo');
 						if($get_logo_image != '') {
 							?>
-							<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $get_logo_image; ?>" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>" class="logoimg" width="280" height="39"/></a>
+							<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $get_logo_image; ?>" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>" class="logoimg"/></a>
 							<?php
 						} else {
 							?>
@@ -86,6 +86,6 @@
 			
 			<div class="outer">
 				<div style="margin-top: 9px;" class="menu-header">
-                    <?php wp_nav_menu( array(  'menu' => 'Menu Principal' )); ?>
+                    <?php wp_nav_menu( array(  'menu' => 'Menu ohperro' )); ?>
 				</div>
 			</div>

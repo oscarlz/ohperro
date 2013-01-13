@@ -4,9 +4,7 @@
             // All links in the footer should remain intact. 
             // These links are all family friendly and will not hurt your site in any way. 
             // Warning! Your site may stop working if these links are edited or deleted  ?>
-      <div align="center"> Y también visita nuestros sitios web amigos: <a href="http://testdeamorgratis.net/" target="_blank">test de amor</a> | <a href="http://www.imagenesbonitas.es/" target="_blank">Fotos lindas</a> | <a href="http://www.temasnokias.com" target="_blank">Temas Nokia</a> 
-          <br> Todas las imágenes de la web son propiedad de sus respectivos autores. 
-      </div>
+      <div align="center"> Todas las fotos de la web son propiedad de sus respectivos autores.</div>
     </div>
 </div>
 </div>
