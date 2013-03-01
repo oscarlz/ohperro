@@ -11,17 +11,17 @@
 			
 							<div class="entry">
                             <?php if(!has_post_thumbnail() || in_category('Fotos de perros') || in_category('Fotos de perros cachorros')) {?> <div align="center" style="margin-bottom: 5px;"><?php } ?>
-                            <script type="text/javascript"><!--
-                            google_ad_client = "ca-pub-4342568147424167";
-                            /* MC - Cuadro medio */
-                            google_ad_slot = "6467339225";
-                            google_ad_width = 300;
-                            google_ad_height = 250;
-                            //-->
-                            </script>
-                            <script type="text/javascript"
-                            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                            </script>
+								<script type="text/javascript"><!--
+								google_ad_client = "ca-pub-4342568147424167";
+								/* OhPerro - Cuadro medio (comienzo posts) */
+								google_ad_slot = "5169048550";
+								google_ad_width = 300;
+								google_ad_height = 250;
+								//-->
+								</script>
+								<script type="text/javascript"
+								src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+								</script>
                             <?php if(!has_post_thumbnail() || in_category('Fotos de perros') || in_category('Fotos de perros cachorros')) { ?> </div> <?php } ?>
                                 <?php if(!in_category('Fotos de perros') && !in_category('Fotos de perros cachorros')){ if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) {
                                     the_post_thumbnail('alignleft post_thumbnail_insidepost'); } } ?>
@@ -30,17 +30,17 @@
 								<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 							</div>
                             <div align="center">
-							<script type="text/javascript"><!--
-							google_ad_client = "ca-pub-4342568147424167";
-							/* MC - Final de posts (medium) */
-							google_ad_slot = "5192891648";
-							google_ad_width = 300;
-							google_ad_height = 250;
-							//-->
-							</script>
-							<script type="text/javascript"
-							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-							</script>
+								<script type="text/javascript"><!--
+								google_ad_client = "ca-pub-4342568147424167";
+								/* OhPerro - Final de posts (medium) */
+								google_ad_slot = "5308649350";
+								google_ad_width = 300;
+								google_ad_height = 250;
+								//-->
+								</script>
+								<script type="text/javascript"
+								src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+								</script>
                             </div>
                             <br>
                             <?php related_posts(); ?>

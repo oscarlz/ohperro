@@ -841,6 +841,7 @@ hr.space {
 
 .addthis_button_facebook_like {
     width: 130px !important;
+	margin-left: 80px !important;
 }
 
 .addthis_button_tweet {

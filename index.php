@@ -15,8 +15,8 @@
                             <div align="center">
 								<script type="text/javascript"><!--
 								google_ad_client = "ca-pub-4342568147424167";
-								/* MC - banner en listado (medium) */
-								google_ad_slot = "0588877645";
+								/* OhPerro - banner en listado (medium) */
+								google_ad_slot = "9878449757";
 								google_ad_width = 300;
 								google_ad_height = 250;
 								//-->
@@ -47,10 +47,10 @@
                     
 					<script type="text/javascript"><!--
 					google_ad_client = "ca-pub-4342568147424167";
-					/* MC - footer */
-					google_ad_slot = "5394817155";
-					google_ad_width = 336;
-					google_ad_height = 280;
+					/* OhPerro - footer */
+					google_ad_slot = "6785382558";
+					google_ad_width = 300;
+					google_ad_height = 250;
 					//-->
 					</script>
 					<script type="text/javascript"
